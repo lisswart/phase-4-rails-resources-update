@@ -18,7 +18,7 @@ class BirdsController < ApplicationController
     render json: bird
   end
 
-  # GET /birds
+  # GET /birds 
   def index
     birds = Bird.all
     render json: birds
